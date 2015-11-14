@@ -1,0 +1,25 @@
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=mex 2014.1.31)  27 OCT 2014 12:28
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**fwt1step.c
+(./fwt1step.c
+This is MeX  Version 1.05  18 XII 1993  (B. Jackowski & M. Ry\'cko)
+! You can't use `macro parameter character #' in vertical mode.
+l.18 #
+      include <math.h>
+? 
+! Interruption.
+<to be read again> 
+                   i
+l.18 #i
+       nclude <math.h>
+? 
+! Emergency stop.
+<to be read again> 
+                   i
+l.18 #i
+       nclude <math.h>
+End of file on the terminal!
+
+No pages of output.

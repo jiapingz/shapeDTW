@@ -1,0 +1,3 @@
+#!/bin/tcsh
+mv wavekdoc.zip ~/roskis
+zip wavekdoc.zip `find doc -name ps -prune -o -type l -prune -o -print` zip*
