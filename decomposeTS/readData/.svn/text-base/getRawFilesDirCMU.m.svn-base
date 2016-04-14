@@ -1,0 +1,5 @@
+function dataDir = getRawFilesDirCMU
+   
+    dataDir = '/lab/jiaping/projects/google-glass-project/data/rawdata-CMU/sub-86';
+    
+end

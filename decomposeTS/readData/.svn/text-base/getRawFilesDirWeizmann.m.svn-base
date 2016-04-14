@@ -1,0 +1,7 @@
+function fileDir = getRawFilesDirWeizmann
+    
+ fileDir = '/lab/jiaping/projects/google-glass-project/data/rawdata-weizmann/simulations';    
+    
+    
+    
+end

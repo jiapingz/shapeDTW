@@ -1,0 +1,29 @@
+function  xe =  readweizmann(idx)
+
+    narginchk(0,1);
+    
+    if nargin == 0
+        idx = 1;
+    end
+    
+    if ~exist('idx', 'var') || isempty(idx)
+        idx = 1;
+    end
+    
+    dataDir = getRawFilesDirWeizmann;
+    simFiles = getRawFileNamesWeizmann;
+    nSims = numel(simFiles);
+    
+    if idx > nSims || idx < 1
+        fprintf(1, 'Please input a valid idx between [1 %d]\n', nSims);
+    end
+    
+    if ispc
+        sl = '\';
+    else
+        sl = '/';
+    end
+    
+    load(strcat(dataDir, sl, simFiles{idx}));
+    xe = simInfo.pcaXEs;
+end
