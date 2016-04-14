@@ -1,3 +1,0 @@
-function dataDir = getRawFilesDirUCR
-    dataDir = '/lab/jiaping/projects/google-glass-project/data/rawdata-UCR';
-end

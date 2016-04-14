@@ -1,4 +1,0 @@
-function datasetDir =  getRawDatasetsDirUCR
- %   datasetDir = '/lab/jiaping/projects/google-glass-project/data/rawdata-UCR';
-    datasetDir = '/lab/jiaping/projects/google-glass-project/data/UCR_TS_Archive_2015/UCR_TS_Archive_2015/Pre_Summer_2015_Datasets';
-end
